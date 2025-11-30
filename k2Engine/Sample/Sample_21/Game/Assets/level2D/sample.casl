@@ -1,0 +1,4 @@
+3
+14,k2SLEditor_red,64,../../../Sample/Sample_21/Game/Assets/level2D/k2SLEditor_red.png,-960.0,540.0,1253,208,10,2.08974358974359,2.08974358974359,0.0,1.0,18,k2SLEditor_red.dds
+14,k2SLEditor_red,64,../../../Sample/Sample_21/Game/Assets/level2D/k2SLEditor_red.png,960.0,-540.0,720,120,10,1.2003205128205128,1.2003205128205128,1.0,0.0,18,k2SLEditor_red.dds
+15,k2SLEditor_blue,65,../../../Sample/Sample_21/Game/Assets/level2D/k2SLEditor_blue.png,-477.8846153846153,-116.34615384615381,853,142,10,1.4217948717948719,1.4217948717948719,0.0,0.0,19,k2SLEditor_blue.dds

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="system">
+      <UniqueIdentifier>{22dd8095-74f9-46df-81a1-36675a040b1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="system\system.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="GameCamera.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="GimmickEnemy.cpp" />
+    <ClCompile Include="GoalPost.cpp" />
+    <ClCompile Include="MainStage.cpp" />
+    <ClCompile Include="BossStage.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="GameClear.cpp" />
+    <ClCompile Include="GameTitle.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="system\system.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="GameCamera.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="GimmickEnemy.h" />
+    <ClInclude Include="GoalPost.h" />
+    <ClInclude Include="MainStage.h" />
+    <ClInclude Include="BossStage.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="GameClear.h" />
+    <ClInclude Include="GameTitle.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="SoundManager.h" />
+  </ItemGroup>
+</Project>

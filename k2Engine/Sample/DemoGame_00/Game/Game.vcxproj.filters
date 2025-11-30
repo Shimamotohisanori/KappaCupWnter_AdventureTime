@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="system">
+      <UniqueIdentifier>{22dd8095-74f9-46df-81a1-36675a040b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enemy">
+      <UniqueIdentifier>{d424ab0c-0382-4761-b481-bdad54cd4bf6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="system\system.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="GameCamera.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="Star.cpp" />
+    <ClCompile Include="Fade.cpp" />
+    <ClCompile Include="Enemy.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="MovedPath.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="StarRender.cpp" />
+    <ClCompile Include="Pyramid.cpp" />
+    <ClCompile Include="PyramidRender.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="system\system.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="GameCamera.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="Star.h" />
+    <ClInclude Include="Fade.h" />
+    <ClInclude Include="Enemy.h">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="MovedPath.h">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="StarRender.h" />
+    <ClInclude Include="Pyramid.h" />
+    <ClInclude Include="PyramidRender.h" />
+  </ItemGroup>
+</Project>
